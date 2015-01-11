@@ -3,9 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.7.1\n"
 "Project-Id-Version: CloudPebble\n"
-"Language: zh-CN\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: auth/views.py:31
@@ -18,7 +18,7 @@ msgstr "帐户已禁用。"
 
 #: ide/git.py:16
 msgid "Invalid user GitHub tokens."
-msgstr "无效的用户 GitHub 令牌。"
+msgstr "用户 GitHub 令牌无效。"
 
 #: ide/api/phone.py:44
 msgid "Tap to enable developer mode and install apps from CloudPebble."
@@ -126,7 +126,7 @@ msgstr "使用空格"
 
 #: ide/models/user.py:44
 msgid "Using tabs"
-msgstr "使用选项卡"
+msgstr "使用制表符"
 
 #: ide/models/user.py:50
 msgid "Autocompletion"
@@ -142,7 +142,7 @@ msgstr "主题"
 
 #: ide/models/user.py:54
 msgid "Tab width"
-msgstr "选项卡宽度"
+msgstr "制表符宽度"
 
 #: ide/templates/ide/gist-import.html:6
 msgid "You are going to create a project based on a template."
@@ -165,7 +165,7 @@ msgstr "设置"
 #: ide/templates/ide/index.html:13 ide/templates/ide/project.html:35
 #: ide/templates/ide/settings.html:13
 msgid "Sign out"
-msgstr "注销"
+msgstr "登出"
 
 #: ide/templates/ide/index.html:19
 msgid "All your projects"
@@ -291,7 +291,7 @@ msgstr "资源"
 
 #: ide/templates/ide/project.html:89
 msgid "Preparing autocomplete…"
-msgstr "准备自动完成..."
+msgstr "自动完成准备中…"
 
 #: ide/templates/ide/project.html:116
 msgid "Create new file"
@@ -332,7 +332,7 @@ msgstr "后台 worker"
 
 #: ide/templates/ide/project.html:149
 msgid "Create header"
-msgstr "创建标题"
+msgstr "创建头文件"
 
 #: ide/templates/ide/project.html:165
 msgid "Window name"
@@ -340,11 +340,11 @@ msgstr "窗口名称"
 
 #: ide/static/ide/js/github.js:8
 msgid "That repo does not exist. Would you like to create it?"
-msgstr "该存储库不存在。是否要创建？"
+msgstr "该代码库不存在。是否要创建？"
 
 #: ide/templates/ide/project.html:187
 msgid "Repo Name"
-msgstr "存储库名称"
+msgstr "代码库名称"
 
 #: ide/templates/ide/project.html:196
 msgid "Description <span class=\"muted\">(optional)</span>"
@@ -373,22 +373,24 @@ msgstr "提交"
 
 #: ide/templates/ide/project.html:241 ide/templates/ide/project/github.html:48
 msgid "Pull Latest Commit"
-msgstr "抽取最新提交"
+msgstr "提取最新提交"
 
 #: ide/templates/ide/project.html:245
-msgid "<p>Are you sure you want to pull the latest commit? Doing so will <em>overwrite</em> everything currently in your project.</p>\n"
+msgid ""
+"<p>Are you sure you want to pull the latest commit? Doing so will <em>overwrite</em> everything currently in your project.</p>\n"
 "<p>There will be no further warnings and no opportunity to merge. This cannot be undone.</p>"
-msgstr "<p>确定要抽取上次的提交吗？该操作将<em>覆盖</em>您的项目中当前的所有内容。</p>\n"
+msgstr ""
+"<p>确定要提取上次的提交吗？该操作将<em>覆盖</em>您的项目中当前的所有内容。</p>\n"
 "<p>既不会有进一步的警告，也没有合并的机会。此操作不能撤销。</p>"
 
 #: ide/templates/ide/project.html:249
 msgid "Pulling latest commit from GitHub…"
-msgstr "从 GitHub 抽取最新提交…"
+msgstr "从 GitHub 提取最新提交…"
 
 #: ide/templates/ide/project.html:257
 msgctxt "button label"
 msgid "Pull"
-msgstr "抽取"
+msgstr "提取"
 
 #: ide/templates/ide/project.html:285
 msgid "Install App"
@@ -396,7 +398,7 @@ msgstr "安装应用"
 
 #: ide/templates/ide/project.html:288
 msgid "Installing app on your watch…"
-msgstr "正在安装手表应用..."
+msgstr "正在安装应用至手表…"
 
 #: ide/templates/ide/project.html:294 ide/templates/ide/project.html.py:310
 #: ide/templates/ide/project.html:402
@@ -414,7 +416,7 @@ msgstr "截图"
 
 #: ide/templates/ide/project.html:304
 msgid "Taking screenshot…"
-msgstr "正在截图..."
+msgstr "正在截图…"
 
 #: ide/templates/ide/project.html:331 root/templates/common/base.html:47
 msgid "Okay"
@@ -450,15 +452,15 @@ msgstr "重新验证"
 
 #: ide/templates/ide/settings.html:55
 msgid "Unlink account"
-msgstr "断开帐户链接"
+msgstr "断开帐户连接"
 
 #: ide/templates/ide/settings.html:57
 msgid "Link your GitHub account"
-msgstr "链接您的 GitHub 帐户"
+msgstr "连接您的 GitHub 帐户"
 
 #: ide/templates/ide/settings.html:60
 msgid "Connecting your GitHub account enables you to connect your projects to GitHub repositories."
-msgstr "通过连接您的 GitHub 帐号，您可以将项目连接到 GitHub 存储库。"
+msgstr "通过连接您的 GitHub 帐号，您可以将项目连接到 GitHub 代码仓库。"
 
 #: ide/templates/ide/project/compile.html:16
 msgid "Install and Run"
@@ -490,7 +492,7 @@ msgstr "可用 Worker RAM："
 
 #: ide/templates/ide/project/compile.html:38
 msgid "Run build"
-msgstr "运行版本"
+msgstr "运行该版本"
 
 #: ide/templates/ide/project/compile.html:39
 msgid "Get PBW"
@@ -519,7 +521,7 @@ msgstr "大小"
 
 #: ide/templates/ide/project/github.html:8
 msgid "Github Repo"
-msgstr "Github 存储库"
+msgstr "Github 代码库"
 
 #: ide/templates/ide/project/github.html:14
 msgctxt "git branch"
@@ -529,7 +531,7 @@ msgstr "分支"
 #: ide/templates/ide/project/github.html:20
 msgctxt "button label"
 msgid "Pull changes"
-msgstr "抽取更改"
+msgstr "提取更改"
 
 #: ide/templates/ide/project/github.html:23
 msgid "Manually"
@@ -541,11 +543,11 @@ msgstr "自动"
 
 #: ide/templates/ide/project/github.html:26
 msgid "If you select 'Automatically', the contents of this project <em>will be overwritten</em> every time you push to your repo from elsewhere, <em>without prompting you</em>."
-msgstr "如果选择“自动”，每次您从其他地方将内容推送到您的存储库时，此项目的内容都<em>会被覆盖</em>，<em>而且不会提示您</em>。"
+msgstr "如果选择“自动”，每次您从其他地方将内容推送到您的代码库时，此项目的内容都<em>会被覆盖</em>，<em>而且不会提示您</em>。"
 
 #: ide/templates/ide/project/github.html:30
 msgid "After pulling"
-msgstr "抽取后"
+msgstr "提取后"
 
 #: ide/templates/ide/project/github.html:33
 msgid "Do nothing"
@@ -553,7 +555,7 @@ msgstr "不进行任何操作"
 
 #: ide/templates/ide/project/github.html:34
 msgid "Build automatically"
-msgstr "自动创建"
+msgstr "自动构建"
 
 #: ide/static/ide/js/editor.js:469
 msgid "Save"
@@ -585,7 +587,7 @@ msgstr "文件"
 
 #: ide/templates/ide/project/resource.html:24
 msgid "You can have multiple Pebble resources from a single file (for different sizes, etc.)"
-msgstr "您可以拥有来自单一文件的多个 Pebble 资源（不同大小及其他）"
+msgstr "您可以拥有来自同一文件的多个 Pebble 资源（针对不同大小等）"
 
 #: ide/templates/ide/project/resource.html:36
 msgid "Download uploaded resource"
@@ -599,11 +601,11 @@ msgstr[0] "标识符"
 #: ide/templates/ide/project/resource.html:43
 #: ide/templates/ide/project/resource.html:52
 msgid "This is used in your code and must be a valid C identifier."
-msgstr "用于您的代码中，必须是有效的 C 标识符。"
+msgstr "这将用于您的代码中，必须是有效的 C 标识符。"
 
 #: ide/templates/ide/project/resource.html:53
 msgid "It must end with the desired font size."
-msgstr "它必须以所需的字体大小结束。"
+msgstr "必须以所需的字体大小结束。"
 
 #: ide/templates/ide/project/resource.html:57
 msgctxt "like letters and numbers"
@@ -612,7 +614,7 @@ msgstr "字符"
 
 #: ide/static/ide/js/resources.js:185
 msgid "A PCRE regular expression that restricts characters."
-msgstr "限制字符的 PCRE 正则表达式。"
+msgstr "用于限制字符的 PCRE 正则表达式。"
 
 #: ide/templates/ide/project/resource.html:65
 msgid "Tracking adjust"
@@ -620,7 +622,7 @@ msgstr "跟踪调整"
 
 #: ide/templates/ide/project/resource.html:68
 msgid "Number of additional pixels by which to shift each character."
-msgstr "用于移动每个字符的额外像素数量。"
+msgstr "每个字符的额外偏移像素数量。"
 
 #: ide/static/ide/js/editor.js:471
 msgid "Delete"
@@ -636,7 +638,7 @@ msgstr "应用类型"
 
 #: ide/templates/ide/project/settings.html:20
 msgid "Watchapp"
-msgstr "Watchapp"
+msgstr "手表应用"
 
 #: ide/templates/ide/project/settings.html:21
 msgid "Watchface"
@@ -678,7 +680,7 @@ msgstr "默认"
 
 #: ide/templates/ide/project/settings.html:50
 msgid "Displayed on the Pebble's main menu. Must be a 28x28 file in PNG format."
-msgstr "在 Pebble 的主菜单上显示，必须为 PNG 格式的 28x28 文件。"
+msgstr "在 Pebble 的主菜单上显示，必须为 28x28 像素的 PNG 文件。"
 
 #: ide/templates/ide/project/settings.html:55
 msgid "Company Name"
@@ -711,15 +713,15 @@ msgstr "应用唯一的标识符。"
 
 #: ide/templates/ide/project/settings.html:95
 msgid "PebbleKit JS Message Keys"
-msgstr "PebbleKit JS 消息键"
+msgstr "PebbleKit JS 消息关键字"
 
 #: ide/templates/ide/project/settings.html:100
 msgid "Key Name"
-msgstr "键名称"
+msgstr "关键字名称"
 
 #: ide/templates/ide/project/settings.html:101
 msgid "Key ID"
-msgstr "键 ID"
+msgstr "关键字 ID"
 
 #: ide/static/ide/js/settings.js:202
 msgid "New Entry"
@@ -727,7 +729,7 @@ msgstr "新建条目"
 
 #: ide/templates/ide/project/settings.html:121
 msgid "A mapping from strings to integers used by PebbleKit JS."
-msgstr "PebbleKit JS 使用的从字符串到整数的映射。"
+msgstr "用于 PebbleKit JS 的从字符串到整数的映射。"
 
 #: ide/templates/ide/project/settings.html:126
 msgctxt "checkbox label"
@@ -737,7 +739,7 @@ msgstr "检查 Javascript"
 #: ide/templates/ide/project/settings.html:132
 msgctxt "checkbox label"
 msgid "Uses Location"
-msgstr "使用地点"
+msgstr "使用位置信息"
 
 #: ide/templates/ide/project/settings.html:138
 msgctxt "checkbox label"
@@ -766,7 +768,7 @@ msgstr "工具包"
 
 #: ide/utils/prepreprocessor.py:28
 msgid "Illegal include '%(include)s' -> '%(path)s'"
-msgstr "无效内容包括 '%(include)s' -> '%(path)s'"
+msgstr "无效的引用 '%(include)s' -> '%(path)s'"
 
 #: ide/utils/project.py:34
 msgid "No project root found."
@@ -819,12 +821,14 @@ msgid "Have a legacy CloudPebble account?"
 msgstr "拥有旧版的 CloudPebble 帐户？"
 
 #: root/templates/root/index.html:37
-msgid "Log in to link it with your Pebble account. Legacy\n"
+msgid ""
+"Log in to link it with your Pebble account. Legacy\n"
 "accounts are being phased out in favour of the\n"
 "Pebble account system. Once you log in you will be\n"
 "required to link your accounts;\n"
 "henceforth you must log in with your pebble account."
-msgstr "登录该帐户，以将其与 Pebble 帐户相关联。\n"
+msgstr ""
+"登录该帐户，以将其与 Pebble 帐户相关联。\n"
 "为方便 Pebble 帐户系统的使用，旧版帐户\n"
 "正逐步被淘汰。登录帐户后，您需要\n"
 "将其与您的帐户相关联；\n"
@@ -897,12 +901,15 @@ msgstr "登录"
 
 #: ide/templates/ide/index.html:28 root/templates/root/index.html:20
 msgid "Due to a recent Chrome update, we have been forced to disable TLS site-wide. Security will be re-enabled in a few days."
-msgstr ""
+msgstr "由于近期的 Chrome 升级，我们不得不在全站范围内关闭 TLS 。安全功能会在几天内重新启用。"
 
 #: ide/templates/ide/project/compile.html:9
-msgid "Make sure that the Developer Connection is enabled on your phone, and you are\n"
+msgid ""
+"Make sure that the Developer Connection is enabled on your phone, and you are\n"
 "running at least iOS app version 2.5 or Android version 2.1 (beta)."
 msgstr ""
+"请确定“开发者连接”已在您的手机上启用，并且您正在使用\n"
+"iOS 2.5 版、 Android 2.1 (beta) 版及更新的 Pebble 应用。"
 
 #: ide/models/user.py:53
 msgctxt "number of spaces"
@@ -917,7 +924,7 @@ msgstr "开始于："
 #: ide/templates/ide/project/compile.html:30
 msgctxt "duration"
 msgid "Build time:"
-msgstr "持续时间："
+msgstr "构建时间："
 
 #: ide/templates/ide/project/compile.html:24
 msgid "Last build"
@@ -928,23 +935,25 @@ msgid "Download"
 msgstr "下载"
 
 #: ide/templates/ide/project/compile.html:9
-msgid "Make sure that the Developer Connection is enabled on your phone, and you are\n"
+msgid ""
+"Make sure that the Developer Connection is enabled on your phone, and you are\n"
 "running at least phone app version 2.5 (iOS) or 2.1 (Android)."
 msgstr ""
+"请确定“开发者连接”已在您的手机上启用，并且您正在使用\n"
+"iOS 2.5 版、 Android 2.1 版及更新的 Pebble 应用。"
 
 #: ide/templates/ide/project/resource.html:72
 msgid "Compatibility"
-msgstr ""
+msgstr "兼容性"
 
 #: ide/templates/ide/project/resource.html:75
 msgid "Latest"
-msgstr ""
+msgstr "最新"
 
 #: ide/templates/ide/project/resource.html:76
 msgid "2.7 and earlier"
-msgstr ""
+msgstr "2.7 及更早"
 
 #: ide/templates/ide/project/resource.html:78
 msgid "Determines the font rendering algorithm to use. The latest looks better, but can produce slightly larger characters."
-msgstr ""
-
+msgstr "确定要使用的字体渲染算法。最新算法更美观，但是会令字符稍大。"

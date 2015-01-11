@@ -3,9 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.7.1\n"
 "Project-Id-Version: CloudPebble\n"
-"Language: zh-TW\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: auth/views.py:31
@@ -126,7 +126,7 @@ msgstr "使用空格"
 
 #: ide/models/user.py:44
 msgid "Using tabs"
-msgstr "使用標籤"
+msgstr "使用製表符"
 
 #: ide/models/user.py:50
 msgid "Autocompletion"
@@ -142,7 +142,7 @@ msgstr "主題"
 
 #: ide/models/user.py:54
 msgid "Tab width"
-msgstr "標籤寬度"
+msgstr "製表符寬度"
 
 #: ide/templates/ide/gist-import.html:6
 msgid "You are going to create a project based on a template."
@@ -332,7 +332,7 @@ msgstr "背景 Worker"
 
 #: ide/templates/ide/project.html:149
 msgid "Create header"
-msgstr "建立標頭"
+msgstr "建立標頭檔"
 
 #: ide/templates/ide/project.html:165
 msgid "Window name"
@@ -340,11 +340,11 @@ msgstr "視窗名稱"
 
 #: ide/static/ide/js/github.js:8
 msgid "That repo does not exist. Would you like to create it?"
-msgstr "該存放庫不存在。是否建立一個？"
+msgstr "該代碼庫不存在。是否建立一個？"
 
 #: ide/templates/ide/project.html:187
 msgid "Repo Name"
-msgstr "存放庫名稱"
+msgstr "代碼庫名稱"
 
 #: ide/templates/ide/project.html:196
 msgid "Description <span class=\"muted\">(optional)</span>"
@@ -352,11 +352,11 @@ msgstr "描述<span class=\"muted\">（可選）</span>"
 
 #: ide/templates/ide/project.html:211 ide/templates/ide/project/github.html:47
 msgid "Push New Commit"
-msgstr "推送新的認可"
+msgstr "推送新的提交"
 
 #: ide/templates/ide/project.html:217
 msgid "Commit Summary"
-msgstr "認可摘要"
+msgstr "提交摘要"
 
 #: ide/templates/ide/project.html:219
 msgctxt "sample commit summary"
@@ -373,17 +373,19 @@ msgstr "認可"
 
 #: ide/templates/ide/project.html:241 ide/templates/ide/project/github.html:48
 msgid "Pull Latest Commit"
-msgstr "提取最新認可"
+msgstr "提取最新提交"
 
 #: ide/templates/ide/project.html:245
-msgid "<p>Are you sure you want to pull the latest commit? Doing so will <em>overwrite</em> everything currently in your project.</p>\n"
+msgid ""
+"<p>Are you sure you want to pull the latest commit? Doing so will <em>overwrite</em> everything currently in your project.</p>\n"
 "<p>There will be no further warnings and no opportunity to merge. This cannot be undone.</p>"
-msgstr "<p>是否確定要提取最新認可？此操作將會<em>覆寫</em>您當前項目中的所有內容。</p>\n"
+msgstr ""
+"<p>是否確定要提取最新提交？此操作將會<em>覆寫</em>您當前項目中的所有內容。</p>\n"
 "<p>系統不會發出進一步警告，亦無合併機會。此操作無法取消。</p>"
 
 #: ide/templates/ide/project.html:249
 msgid "Pulling latest commit from GitHub…"
-msgstr "正在從 GitHub 提取最新認可……"
+msgstr "正在從 GitHub 提取最新提交……"
 
 #: ide/templates/ide/project.html:257
 msgctxt "button label"
@@ -458,11 +460,11 @@ msgstr "連結您的 GitHub 帳戶"
 
 #: ide/templates/ide/settings.html:60
 msgid "Connecting your GitHub account enables you to connect your projects to GitHub repositories."
-msgstr "連接您的 GitHub 帳戶後，您可將您的項目連接至 GitHub 存放庫。"
+msgstr "連結您的 GitHub 帳戶後，您可將您的項目連接至 GitHub 存放庫。"
 
 #: ide/templates/ide/project/compile.html:16
 msgid "Install and Run"
-msgstr "安裝和執行"
+msgstr "安裝並執行"
 
 #: ide/templates/ide/project/compile.html:17
 msgid "View app logs"
@@ -485,9 +487,8 @@ msgid "Available App RAM:"
 msgstr "可用的應用程式 RAM："
 
 #: ide/templates/ide/project/compile.html:34
-#, fuzzy
 msgid "Available Worker RAM:"
-msgstr "可用的 Worker RMA："
+msgstr "可用的 Worker RAM："
 
 #: ide/templates/ide/project/compile.html:38
 msgid "Run build"
@@ -504,7 +505,7 @@ msgstr "組建記錄"
 #: ide/templates/ide/project/compile.html:47
 msgctxt "number symbol"
 msgid "#"
-msgstr "編號"
+msgstr "#"
 
 #: ide/templates/ide/project/compile.html:48
 msgid "Date"
@@ -520,7 +521,7 @@ msgstr "大小"
 
 #: ide/templates/ide/project/github.html:8
 msgid "Github Repo"
-msgstr "Github 存放庫"
+msgstr "Github 代碼庫"
 
 #: ide/templates/ide/project/github.html:14
 msgctxt "git branch"
@@ -554,7 +555,7 @@ msgstr "無任何操作"
 
 #: ide/templates/ide/project/github.html:34
 msgid "Build automatically"
-msgstr "自動組建"
+msgstr "自動構建"
 
 #: ide/static/ide/js/editor.js:469
 msgid "Save"
@@ -578,7 +579,7 @@ msgstr "TrueType 字型"
 
 #: ide/templates/ide/project/resource.html:15
 msgid "Raw binary blob"
-msgstr "原始二進位大型物件"
+msgstr "原始二進位 blob"
 
 #: ide/templates/ide/project/resource.html:21
 msgid "File"
@@ -679,7 +680,7 @@ msgstr "預設"
 
 #: ide/templates/ide/project/settings.html:50
 msgid "Displayed on the Pebble's main menu. Must be a 28x28 file in PNG format."
-msgstr "在 Pebble 的主功能表上顯示。必須為 PNG 格式的 28x28 檔案。"
+msgstr "在 Pebble 的主功能表上顯示。必須為 28x28 像素的 PNG 格式檔案。"
 
 #: ide/templates/ide/project/settings.html:55
 msgid "Company Name"
@@ -720,7 +721,7 @@ msgstr "機碼名稱"
 
 #: ide/templates/ide/project/settings.html:101
 msgid "Key ID"
-msgstr "機碼識別碼"
+msgstr "機碼 ID"
 
 #: ide/static/ide/js/settings.js:202
 msgid "New Entry"
@@ -767,7 +768,7 @@ msgstr "工具組"
 
 #: ide/utils/prepreprocessor.py:28
 msgid "Illegal include '%(include)s' -> '%(path)s'"
-msgstr "不合法包括 '%(include)s' -> '%(path)s'"
+msgstr "不合法引用 '%(include)s' -> '%(path)s'"
 
 #: ide/utils/project.py:34
 msgid "No project root found."
@@ -820,12 +821,14 @@ msgid "Have a legacy CloudPebble account?"
 msgstr "是否有舊版的 CloudPebble 帳戶？"
 
 #: root/templates/root/index.html:37
-msgid "Log in to link it with your Pebble account. Legacy\n"
+msgid ""
+"Log in to link it with your Pebble account. Legacy\n"
 "accounts are being phased out in favour of the\n"
 "Pebble account system. Once you log in you will be\n"
 "required to link your accounts;\n"
 "henceforth you must log in with your pebble account."
-msgstr "登入後，將其與您的 Pebble 帳戶連接。舊版\n"
+msgstr ""
+"登入後，將其與您的 Pebble 帳戶連接。舊版\n"
 "帳戶因 \n"
 "Pebble 帳戶系統的考量將被逐步淘汰。登入後，您\n"
 "需要連結您的帳戶；\n"
@@ -898,12 +901,15 @@ msgstr "登入"
 
 #: ide/templates/ide/index.html:28 root/templates/root/index.html:20
 msgid "Due to a recent Chrome update, we have been forced to disable TLS site-wide. Security will be re-enabled in a few days."
-msgstr ""
+msgstr "由於近期的 Chrome 更新，我們不得不在全站範圍內關閉 TLS 。安全功能會在幾天內重新啓用。"
 
 #: ide/templates/ide/project/compile.html:9
-msgid "Make sure that the Developer Connection is enabled on your phone, and you are\n"
+msgid ""
+"Make sure that the Developer Connection is enabled on your phone, and you are\n"
 "running at least iOS app version 2.5 or Android version 2.1 (beta)."
 msgstr ""
+"確保“開發者連接”已經在您的手機上啓用，並且您正在使用\n"
+"iOS 2.5 版、 Android 2.1 (beta) 版及以上的 Pebble 應用。"
 
 #: ide/models/user.py:53
 msgctxt "number of spaces"
@@ -918,34 +924,36 @@ msgstr "開始日期："
 #: ide/templates/ide/project/compile.html:30
 msgctxt "duration"
 msgid "Build time:"
-msgstr "組建時間："
+msgstr "構建時間："
 
 #: ide/templates/ide/project/compile.html:24
 msgid "Last build"
-msgstr "上次組建日期"
+msgstr "上次構建"
 
 #: ide/templates/ide/project.html:403
 msgid "Download"
 msgstr "下載"
 
 #: ide/templates/ide/project/compile.html:9
-msgid "Make sure that the Developer Connection is enabled on your phone, and you are\n"
+msgid ""
+"Make sure that the Developer Connection is enabled on your phone, and you are\n"
 "running at least phone app version 2.5 (iOS) or 2.1 (Android)."
 msgstr ""
+"確保“開發者連接”已經在您的手機上啓用，並且您正在使用\n"
+"iOS 2.5 版、 Android 2.1 版及以上的 Pebble 應用。"
 
 #: ide/templates/ide/project/resource.html:72
 msgid "Compatibility"
-msgstr ""
+msgstr "兼容性"
 
 #: ide/templates/ide/project/resource.html:75
 msgid "Latest"
-msgstr ""
+msgstr "最新"
 
 #: ide/templates/ide/project/resource.html:76
 msgid "2.7 and earlier"
-msgstr ""
+msgstr "2.7 及更早"
 
 #: ide/templates/ide/project/resource.html:78
 msgid "Determines the font rendering algorithm to use. The latest looks better, but can produce slightly larger characters."
-msgstr ""
-
+msgstr "選擇要使用的字型渲染算法。最新算法更美觀，但會生成稍大的字元。"
