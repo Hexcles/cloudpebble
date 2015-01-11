@@ -3,9 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.7.1\n"
 "Project-Id-Version: CloudPebble\n"
-"Language: zh-TW\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ide/static/ide/js/compile.js:5
@@ -22,7 +22,7 @@ msgstr "成功"
 
 #: ide/static/ide/js/github.js:8
 msgid "That repo does not exist. Would you like to create it?"
-msgstr "該存放庫不存在。是否建立一個？"
+msgstr "該代碼庫不存在。是否建立一個？"
 
 #: ide/templates/ide/project.html:288
 msgid "Installing app on your watch…"
@@ -92,7 +92,7 @@ msgstr "%(free)s / %(max)s 位元組 (%(percent)s%)"
 
 #: ide/static/ide/js/compile.js:344
 msgid "Different app crashed. Only the active app has debugging information available."
-msgstr "不同的應用程式故障。僅使用中的應用程式正在對可用資訊進行偵錯。"
+msgstr "其他應用程式故障。僅使用中的應用程式用可用的偵錯資訊。"
 
 #: ide/static/ide/js/compile.js:350
 msgid "Looking up debug information..."
@@ -100,7 +100,7 @@ msgstr "正在查找偵錯資訊……"
 
 #: ide/static/ide/js/compile.js:383
 msgid "Crashed inside firmware call."
-msgstr "內部韌體通話發生故障。"
+msgstr "內部韌體調用發生故障。"
 
 #: ide/static/ide/js/compile.js:385
 msgid "Crashed at %(file)s:%(line)s, in %(fn_name)s (starts at %(file)s:%(fn_line)s)."
@@ -236,15 +236,15 @@ msgstr "匯入失敗：%s"
 
 #: ide/static/ide/js/github.js:65
 msgid "Updated repo."
-msgstr "已更新的存放庫。"
+msgstr "已更新的代碼庫。"
 
 #: ide/static/ide/js/github.js:79
 msgid "You don't have access to that repository."
-msgstr "您無法存取該存放庫。"
+msgstr "您無法存取該代碼庫。"
 
 #: ide/static/ide/js/github.js:108
 msgid "You must provide a repo URL."
-msgstr "您必須提供一個存放庫 URL。"
+msgstr "您必須提供一個代碼庫 URL。"
 
 #: ide/static/ide/js/github.js:171
 msgid "Pulled successfully."
@@ -273,7 +273,7 @@ msgstr "提取失敗：%s"
 
 #: ide/static/ide/js/github.js:243
 msgid "GitHub integration can be enabled in your user settings by linking a GitHub account."
-msgstr "可透過連結 GitHub 帳戶，在您的使用者設定中啟用 GitHub 整合。"
+msgstr "GitHub 整合可透過在您的使用者設定中連結 GitHub 帳戶來啟用。"
 
 #: ide/static/ide/js/project_list.js:20
 msgid "You must enter a name."
@@ -393,7 +393,7 @@ msgstr "代碼補全不可用。"
 
 #: ide/static/ide/js/ycm.js:94
 msgid "Code completion lost; retrying..."
-msgstr "代碼補全遺失；正在重試……"
+msgstr "代碼補全中斷；正在重試……"
 
 #: ide/static/ide/js/cloudpebble.js:145
 msgctxt "month name"
@@ -457,11 +457,11 @@ msgstr "十二月"
 
 #: ide/static/ide/js/cloudpebble.js:166
 msgid "AM"
-msgstr ""
+msgstr "上午"
 
 #: ide/static/ide/js/cloudpebble.js:166
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 #: ide/static/ide/js/cloudpebble.js:171
 msgid "%s second"
@@ -469,9 +469,11 @@ msgid_plural "%s seconds"
 msgstr[0] "%s 秒"
 
 #: ide/static/ide/js/compile.js:88
-msgid "Something went wrong:\n"
+msgid ""
+"Something went wrong:\n"
 "%s"
-msgstr "發生錯誤：\n"
+msgstr ""
+"發生錯誤：\n"
 "%s"
 
 #: ide/static/ide/js/compile.js:258
@@ -584,7 +586,7 @@ msgstr "對換其後方矩形的色彩。前方圖層不受影響。"
 
 #: ide/static/ide/js/ib/layers/menulayer.js:18
 msgid "A menu that pulls its content from programmatic callbacks."
-msgstr "從程式設計回撥中提取其內容的功能表。"
+msgstr "功能表從程式回調中獲取其內容。"
 
 #: ide/static/ide/js/ib/layers/textlayer.js:15
 msgid "Text"
@@ -626,7 +628,7 @@ msgstr "顯示文字。"
 
 #: ide/static/ide/js/compile.js:272
 msgid "Waiting for phone. Make sure the developer connection is enabled."
-msgstr ""
+msgstr "正在等待手機。請確保已啟用開發者連接。"
 
 #: ide/static/ide/js/compile.js:429
 msgid "Preparing to install app…"
@@ -635,4 +637,3 @@ msgstr "正在準備安裝應用程式……"
 #: ide/static/ide/js/compile.js:442
 msgid "Installing app on watch…"
 msgstr "正在為手錶安裝應用程式……"
-

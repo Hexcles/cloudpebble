@@ -3,9 +3,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.7.1\n"
 "Project-Id-Version: CloudPebble\n"
-"Language: zh-CN\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ide/static/ide/js/compile.js:5
@@ -22,11 +22,11 @@ msgstr "成功"
 
 #: ide/static/ide/js/github.js:8
 msgid "That repo does not exist. Would you like to create it?"
-msgstr "该存储库不存在。是否要创建？"
+msgstr "该代码库不存在。是否要创建？"
 
 #: ide/templates/ide/project.html:288
 msgid "Installing app on your watch…"
-msgstr "正在安装手表应用..."
+msgstr "正在安装应用至手表…"
 
 #: ide/static/ide/js/compile.js:25
 msgid "Build log"
@@ -47,7 +47,7 @@ msgstr[0] "标识符"
 
 #: ide/static/ide/js/resources.js:185
 msgid "A PCRE regular expression that restricts characters."
-msgstr "限制字符的 PCRE 正则表达式。"
+msgstr "用于限制字符的 PCRE 正则表达式。"
 
 #: ide/static/ide/js/editor.js:471
 msgid "Delete"
@@ -92,15 +92,15 @@ msgstr "%(free)s / %(max)s 字节 (%(percent)s%)"
 
 #: ide/static/ide/js/compile.js:344
 msgid "Different app crashed. Only the active app has debugging information available."
-msgstr "不同的应用崩溃。仅激活的应用拥有可用的调试信息。"
+msgstr "其他应用崩溃。仅激活的应用拥有可用的调试信息。"
 
 #: ide/static/ide/js/compile.js:350
 msgid "Looking up debug information..."
-msgstr "正在查找调试信息..."
+msgstr "正在查找调试信息…"
 
 #: ide/static/ide/js/compile.js:383
 msgid "Crashed inside firmware call."
-msgstr "已崩溃内部固件调用。"
+msgstr "在固件内部调用时崩溃。"
 
 #: ide/static/ide/js/compile.js:385
 msgid "Crashed at %(file)s:%(line)s, in %(fn_name)s (starts at %(file)s:%(fn_line)s)."
@@ -200,7 +200,7 @@ msgstr "参数"
 
 #: ide/static/ide/js/editor.js:686
 msgid "Note"
-msgstr "注"
+msgstr "备注"
 
 #: ide/static/ide/js/editor.js:772
 msgid "Source files must end in .c or .h"
@@ -236,27 +236,27 @@ msgstr "导入失败：%s"
 
 #: ide/static/ide/js/github.js:65
 msgid "Updated repo."
-msgstr "已更新存储库。"
+msgstr "已更新代码库。"
 
 #: ide/static/ide/js/github.js:79
 msgid "You don't have access to that repository."
-msgstr "您没有该存储库的访问权限。"
+msgstr "您没有该代码库的访问权限。"
 
 #: ide/static/ide/js/github.js:108
 msgid "You must provide a repo URL."
-msgstr "您必须提供存储库的 URL。"
+msgstr "您必须提供代码库的 URL。"
 
 #: ide/static/ide/js/github.js:171
 msgid "Pulled successfully."
-msgstr "成功抽取。"
+msgstr "成功提取。"
 
 #: ide/static/ide/js/github.js:172
 msgid "Pull completed successfully."
-msgstr "成功完成抽取。"
+msgstr "成功完成提取。"
 
 #: ide/static/ide/js/github.js:178
 msgid "Pull completed: Nothing to pull."
-msgstr "完成抽取：没有可抽取的内容。"
+msgstr "完成提取：没有可提取的内容。"
 
 #: ide/static/ide/js/github.js:181 ide/static/ide/js/project_list.js:55
 #: ide/static/ide/js/settings.js:137 ide/static/ide/js/settings.js.c:150
@@ -269,11 +269,11 @@ msgstr "您必须提供提交摘要。"
 
 #: ide/static/ide/js/github.js:226
 msgid "Pull failed: %s"
-msgstr "抽取失败：%s"
+msgstr "提取失败：%s"
 
 #: ide/static/ide/js/github.js:243
 msgid "GitHub integration can be enabled in your user settings by linking a GitHub account."
-msgstr "通过与 GitHub 帐户关联，可以在您的用户设置中启用 GitHub 集成。"
+msgstr "GitHub 集成可通过在您的用户设置中与 GitHub 账户连接来启用。"
 
 #: ide/static/ide/js/project_list.js:20
 msgid "You must enter a name."
@@ -393,7 +393,7 @@ msgstr "代码补全不可用。"
 
 #: ide/static/ide/js/ycm.js:94
 msgid "Code completion lost; retrying..."
-msgstr "代码补全丢失；重试中..."
+msgstr "代码补全中断；重试中…"
 
 #: ide/static/ide/js/cloudpebble.js:145
 msgctxt "month name"
@@ -457,11 +457,11 @@ msgstr "十二月"
 
 #: ide/static/ide/js/cloudpebble.js:166
 msgid "AM"
-msgstr ""
+msgstr "上午"
 
 #: ide/static/ide/js/cloudpebble.js:166
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 #: ide/static/ide/js/cloudpebble.js:171
 msgid "%s second"
@@ -469,26 +469,28 @@ msgid_plural "%s seconds"
 msgstr[0] "%s 秒"
 
 #: ide/static/ide/js/compile.js:88
-msgid "Something went wrong:\n"
+msgid ""
+"Something went wrong:\n"
 "%s"
-msgstr "发生错误：\n"
+msgstr ""
+"发生错误：\n"
 "%s"
 
 #: ide/static/ide/js/compile.js:258
 msgid "Connecting..."
-msgstr "连接中..."
+msgstr "连接中…"
 
 #: ide/static/ide/js/compile.js:258
 msgid "Establishing connection..."
-msgstr "建立连接中..."
+msgstr "建立连接中…"
 
 #: ide/static/ide/js/compile.js:269
 msgid "Authenticating..."
-msgstr "验证中..."
+msgstr "验证中…"
 
 #: ide/static/ide/js/compile.js:261
 msgid "Waiting for phone. Make sure the development server is enabled."
-msgstr "等待电话。确保已启用开发服务器。"
+msgstr "等待手机。请确保开发服务已启用。"
 
 #: ide/static/ide/js/compile.js:277
 msgid "Connection interrupted."
@@ -584,7 +586,7 @@ msgstr "反转后面矩形的颜色。前面的层不受影响。"
 
 #: ide/static/ide/js/ib/layers/menulayer.js:18
 msgid "A menu that pulls its content from programmatic callbacks."
-msgstr "用于将其内容从编程回调中抽取的菜单。"
+msgstr "菜单将从程序回调中获取内容。"
 
 #: ide/static/ide/js/ib/layers/textlayer.js:15
 msgid "Text"
@@ -626,13 +628,12 @@ msgstr "显示文本。"
 
 #: ide/static/ide/js/compile.js:272
 msgid "Waiting for phone. Make sure the developer connection is enabled."
-msgstr ""
+msgstr "等待手机。请确保开发者连接已启用。"
 
 #: ide/static/ide/js/compile.js:429
 msgid "Preparing to install app…"
-msgstr "正在准备安装应用..."
+msgstr "正在准备安装应用…"
 
 #: ide/static/ide/js/compile.js:442
 msgid "Installing app on watch…"
-msgstr "正在安装手表应用..."
-
+msgstr "正在安装应用至手表…"
